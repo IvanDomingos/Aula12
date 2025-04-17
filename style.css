@@ -1,32 +1,53 @@
 
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
   }
   
   body {
+
     font-family: sans-serif;
     line-height: 1.5;
+
   }
   
   header {
-    background-color: #4a90e2;
-    color: white;
+
+    background-color: #800000;
+    color: #ffffff;
     padding: 1rem;
     text-align: center;
+
   }
   
   .container {
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     padding: 1rem;
+    box-shadow: 1px 2px 3px #000000;
+    font-weight: bold;
+    color: #ffffff;
+
   }
   
   .card {
-    background-color: #f2f2f2;
+
+    background-color: #800000;
     padding: 2rem;
     border-radius: 8px;
     text-align: center;
+
   }
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
